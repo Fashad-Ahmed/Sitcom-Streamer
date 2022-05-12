@@ -1,5 +1,21 @@
 export const newSeason = [
   {
+    id: 4,
+    name: "Stranger Things",
+    thumbnail: require("../assets/images/series/salvation/salvation_cover.jpg"),
+    stillWatching: [],
+    details: {
+      image: require("../assets/images/series/salvation/salvation.jpg"),
+      age: "13+",
+      genre: "Sci-Fi",
+      ratings: 7.0,
+      season: "SEASON 1",
+      currentEpisode: 'S1 : E1 "Episode 1 : El"',
+      runningTime: "45m",
+      progress: "0%",
+    },
+  },
+  {
     id: 5,
     name: "Peaky Blinders",
     thumbnail: require("../assets/images/series/peaky_blinders/peaky_blinders_cover.jpg"),
@@ -8,7 +24,7 @@ export const newSeason = [
       image: require("../assets/images/series/peaky_blinders/peaky_blinders.jpg"),
       age: "18+",
       genre: "History",
-      ratings: 85,
+      ratings: 8.5,
       season: "SEASON 1",
       currentEpisode: 'S1 : E1 "Episode 1 : Grace"',
       runningTime: "45m",
@@ -62,22 +78,6 @@ export const newSeason = [
       currentEpisode: 'S1 : E15 "Episode 15 : Bella ciao"',
       runningTime: "45m",
       progress: "50%",
-    },
-  },
-  {
-    id: 4,
-    name: "Dark",
-    thumbnail: require("../assets/images/series/salvation/salvation_cover.jpg"),
-    stillWatching: [],
-    details: {
-      image: require("../assets/images/series/salvation/salvation.jpg"),
-      age: "13+",
-      genre: "Sci-Fi",
-      ratings: 7.0,
-      season: "SEASON 1",
-      currentEpisode: 'S1 : E1 "Episode 1 : Pilot"',
-      runningTime: "45m",
-      progress: "0%",
     },
   },
 
